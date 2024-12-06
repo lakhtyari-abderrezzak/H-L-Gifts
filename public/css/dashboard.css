@@ -1,0 +1,138 @@
+.dashboard {
+    min-height: 100vh;
+}
+.dashboard .aside {
+    z-index: 100;
+    position: fixed;
+    left: -200px;
+    width: 250px;
+    height: fit-content;
+    background-color: #eeeeee;
+    color: #000;
+    transition: 0.5s all ease;
+}
+.dashboard .aside.active {
+    left: 0;
+}
+.dashboard .aside ul {
+    padding-left: 0 !important;
+}
+.dashboard .aside li {
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: 1px solid #777;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.4s all;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .aside li:hover a {
+    padding-left: 10px;
+}
+.dashboard .aside li a {
+    text-decoration: none;
+    color: #000;
+}
+.dashboard .aside li i {
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #fefefe;
+    color: goldenrod;
+}
+.contact-from-section {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fefefefb;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.contact-from-section input[type="submit"] {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #000;
+    border: none;
+    outline: none;
+    background-color: goldenrod !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+.categories .container {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    min-height: 100vh;
+}
+.categories .card {
+    position: relative;
+}
+.categories .desc {
+    height: 200px;
+}
+.categories .btns {
+    position: absolute;
+    width: 100%;
+    margin: 10px 0;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------------------------------------
+Table Styling
+------------------------------------------------*/
+.basic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.basic-table th,
+.basic-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.basic-table th {
+    background-color: #f2f2f2;
+}
+.btn {
+    background-color: olivedrab;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: all 0.5s;
+    margin-bottom: 20px !important;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: rgb(37, 48, 16);
+    color: #fff;
+}
+/* ------------------------------------------------
+Checkout Styling
+--------------------------------------------------- */
+.checkout-section {
+    height: 100vh;
+}
+.checkout-section .row {
+    width: 60%;
+    padding: 40px;
+    margin-inline: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+.checkout-section .contact-form {
+    width: 600px;
+    text-align: center;
+}
+.checkout-section .billing-address-form input {
+    width: 80%;
+}
+.rows {
+    width: 60%;
+    padding: 40px;
+    margin-inline: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
